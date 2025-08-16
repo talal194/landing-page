@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <!-- font famiily -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<!-- slick slider  -->
+<!-- Slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- end slick slider  -->
+</head>
+<body>
+  <main>
+    <header>
+      <div class="container pt-4" >
+        <div class="row">
+
+          <div class="col-12  mobile_menu">
+                <div class="d-flex justify-content-between align-items-center"> 
+                <div class="logo_sec">
+                    <img src="./img/logo.png" alt="" class="img-fluid">
+                </div>
+
+               <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mobile_nav">
+      <div class="navbar-nav w-100"  id="mob_menu"> <!-- Added w-100 and text-center -->
+        <a class="nav-link active in" aria-current="page" href="#">Dine With Us</a>
+        <a class="nav-link in" href="#">Plan Your Visit</a>
+        <a class="nav-link in" href="#">Events</a>
+        <a class="nav-link in" href="#">View Groves Map</a>
+        <a class="nav-link in" href="#">Our Story</a>
+        <a class="nav-link in" href="#">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<style>
+  
+</style>
+                </div>
+          </div>
+
+         
+          
+            <div class="col-lg-6 col-md-6 col-sm-12 desktop_menu">
+                <div class="logo_sec">
+                    <img src="./img/logo.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6  col-md-6 col-sm-12 desktop_menu">
+                <div class="main_sec">
+                    <div class="social_sec">
+                        <img src="./img/s1.png" alt="" class="img-fluid">
+                        <img src="./img/s2.png" alt="" class="img-fluid">
+                        <img src="./img/s3.png" alt="" class="img-fluid">
+                        <img src="./img/s4.png" alt="" class="img-fluid">
+                    </div>
+                    <button class="btn  btn-login">login</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+      </div>
+      <nav class="navbar navbar-expand-lg  navbar-dark  desktop_menu">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-auto new_nav">
+            <a class="nav-link in active" aria-current="page" href="#">Dine With Us</a>
+            <a class="nav-link in" href="#">Plan Your Visit</a>
+            <a class="nav-link in" href="#">Events</a>
+            <a class="nav-link in" href="#">View Cover Map</a>
+            <a class="nav-link in" href="#">Our Story</a>
+            <a class="nav-link in" href="#">Contact Us</a>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+    </header>
+<section class="sliders">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/l1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <h1>The New Era <br> Of Luxury</h1>
+        <p class="in ft">Some representative placeholder content for the third slide.</p>
+        <button class="btn btn-lg btn-login">Book Reservation now </button>
+      </div>
+      </div>
+
+      <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/l1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <h1>The New Era <br> Of Luxury</h1>
+        <p class="in ft">Some representative placeholder content for the third slide.</p>
+         <button class="btn btn-lg btn-login">Book Reservation now </button>
+      </div>
+      </div>  
+    </div>
+    
+  </div>
+ </section>
+
+ <section class="videos">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+             <div class="video_sec text-center pt-5 pb-5"> 
+                <h2>Mall Of:Endless Possibilities</h2>
+                <p class="in">It is a long established fact that a reader will be distracted by the readable
+                   content of a page when looking at its layout. The point of using Lorem Ipsum 
+                   is that it has a more-or-less normal distribution of letters,
+                   as opposed to using 'Content here, content here', making it look like readable English.</p>         
+              </div>
+                <div class="video-container">
+                  <video id="myVideo" poster="img/vdo.png">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                  </video>
+                  <div class="play-button" id="playBtn">
+                    <img src="./img/btn.png" alt="Play Button">
+                  </div>
+                </div>
+        </div>
+      </div>
+
+
+ </section>
+
+<section class="box_sec pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+          <div class="box">
+              <div class="box_left">
+                  <span class="in">25 SR/ Guest</span>
+                  <h3 class="pt-4 fs-3">Get Your General Access Ticket</h3>
+                  <p class="in fw-lighter">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+              </div>
+              <div class="box_right">
+                 <div><img src="./img/arrow.png" alt="" class="img-fluid"></div>
+
+              </div>
+          </div>
+
+
+      </div>
+      
+    </div>
+  </div>
+
+</section>
+
+<section class="booking_section">
+
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-12">
+          <div class="booking_sec">
+              <h2 class="fw-lighter pb-3">Book General Access ticket and enjoy the attractons for free</h2>
+    
+              <button class="btn btn-lg btn-login">Book General Access Ticket</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12 pt-5">
+       
+        <div class="">
+        <div class="slider">
+            <div class="slide-item">
+              <img src="./img/sl1.png" alt="Little Krazy">
+              <p>Little Krazy</p>
+            </div>
+            <div class="slide-item">
+              <img src="./img/sl2.png" alt="Hawanm Groves City"  style="height: 400px; padding:3rem 2rem;">
+              <p>Hawanm Groves City</p>
+            </div>
+            <div class="slide-item">
+              <img src="./img/sl3.png" alt="Picnic Market">
+              <p>Picnic Market</p>
+            </div>
+            <div class="slide-item">
+              <img src="./img/sl4.png" alt="Lucaw"  style="height: 400px; padding:3rem 2rem;">
+              <p>Lucaw</p>
+            </div>
+        </div>
+
+      </div>
+      </div>
+</section>
+
+
+<section class="container py-5">
+  <div class="text-center mb-4 exp">
+    <h2>Experience the Finest Cuisine</h2>
+    <p class="text-white-50 cart_txt in">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+      and scrambled it to make a type specimen book.
+    </p>
+  </div>
+
+  <div class="row g-4">
+   <div class="col-md-6">
+      <div class="card h-100">
+        <img src="./img/c1.png" alt="Zama Zulu">
+        <div class="card-body">
+         
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <div>
+             <h5 class="card-title pb-3">Vida Vera</h5>
+            <span class="price-badge">100 SR PER GUEST</span>
+            </div>
+            <span class="arrow"><img src="./img/arrow.png" class="img-fluid"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="./img/c2.png" alt="Zama Zulu">
+        <div class="card-body">
+         
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <div>
+             <h5 class="card-title pb-3">Zama Zulu</h5>
+            <span class="price-badge">100 SR PER GUEST</span>
+            </div>
+            <span class="arrow"><img src="./img/arrow.png" class="img-fluid"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="./img/c3.png" alt="Zama Zulu">
+        <div class="card-body">
+         
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <div>
+             <h5 class="card-title pb-3">Khawaja Yanni</h5>
+            <span class="price-badge">100 SR PER GUEST</span>
+            </div>
+            <span class="arrow"><img src="./img/arrow.png" class="img-fluid"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="./img/c4.png" alt="Zama Zulu">
+        <div class="card-body">
+         
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <div>
+             <h5 class="card-title pb-3">Yama Gata</h5>
+            <span class="price-badge">100 SR PER GUEST</span>
+            </div>
+            <span class="arrow"><img src="./img/arrow.png" class="img-fluid"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- booking section 2  -->
+ <section class="booking_section">
+
+
+  <div class="container-fluid pt-5">
+    <div class="row">
+      <div class="col-lg-4">
+          <div class="booking_sec2">
+              <h2 class="fw-lighter pb-3">Create your experience as you like </h2>
+    
+              <button class="btn btn-lg btn-login">Book Ticket</button>
+          </div>
+      </div>
+    
+  <div class="col-lg-8 pt-5">
+       
+        <div class="slider2">
+            <div class="slide-item">
+              <img src="./img/sl1.png" alt="Little Krazy">
+              <p>Little Krazy</p>
+            </div>
+            <div class="slide-item">
+              <img src="./img/sl2.png" alt="Hawanm Groves City"  style="height: 400px; padding:3rem 2rem;">
+              <p>Hawanm Groves City</p>
+            </div>
+            <div class="slide-item">
+              <img src="./img/sl3.png" alt="Picnic Market">
+              <p>Picnic Market</p>
+            </div>
+            <div class="slide-item">
+              <img src="./img/sl4.png" alt="Lucaw"  style="height: 400px; padding:3rem 2rem;">
+              <p>Lucaw</p>
+            </div>
+        </div>
+      </div>
+      </div>
+  </div>
+
+</section>
+
+
+<!-- Map Section -->
+<section class="map-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="./img/map.png" alt="Map" class="img-fluid ">
+      </div>
+      <div class="col-lg-6 text-lg-start  map_list">
+        <p class="text-uppercase mb-1">Experience The Groves</p>
+        <h2 class="fw-bold">Find your place</h2>
+        <p class="map-list_para">Our interactive map will show you the way to the shops and restaurants that you want to see.</p>
+        <a href="#" class="btn btn-custom">Open the Map <img src="./img/arrow.png" class="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<hr class="border-secondary my-4">
+<footer class="footer-section">
+  
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h2>Join us for an<br> unforgettable experience</h2>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12  text-lg-end text-center">
+        <h6 class="text-uppercase pb-2 in ft new_ft">Download The Groves App</h6>
+        <div class="d-flex justify-content-lg-end gap-3">
+          <a href="#"><img src="./img/g2.png" class="" width="140" height="49"></a>
+         <a href="#"><img src="./img/g1.png" width="140" height="49"></a>
+        </div>
+        
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12  pt-5">
+        <h6 class="text-uppercase in ft">Location</h6>
+        <p class="in">Al-Hizam Park<br>
+        Al-Semari, Yanbu Al Bahr 46455<br>
+        Riyadh Saudi Arabia</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+        <h6 class="text-uppercase  in ft">Working Hours</h6>
+        <p class="in">Sun until Thurs: 4:00PM<br>
+        Fri & Sat: 2:30PM</p>
+        <p class="in">Gates Close at:<br>
+        Sat until Wed: 12:00AM<br>
+        Thu & Fri: 12:30AM</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+        <h6 class="text-uppercase in ft">Guest Service Call</h6>
+        <p class="in">cc@thegroves-sa.com<br>
+        920001872<br>
+        +96655661309</p>
+      </div>
+      
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col-lg-6">
+        <div><img src="./img/logo.png" class="img-fluid"></div>
+      </div>
+      <div class="col-lg-6 text-md-end d-flex justify-content-lg-end gap-3 align-items-lg-end  ft_img">
+        <img src="./img/s1.png" width="26">
+        <img src="./img/s2.png" width="26">
+        <img src="./img/s3.png" width="26">
+        <img src="./img/s4.png" width="26">
+      </div>
+      <div class="col-md-8  pt-5">
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 terms">
+        <span class="in">Terms & Conditions</span>
+        <span class="in">Privacy Policy</span>
+        <span class="in"> ©2025 The Groves for Entertainment</span>
+       </div>
+        <!-- <p class="m-0">Terms & Conditions | Privacy Policy   ©2023 The Groves for Entertainment</p> -->
+      </div>
+      <div class="col-md-4  pt-5 text-md-end">
+        <img src="./img/m3.png" width="43">
+        <img src="./img/m1.png" width="43">
+        <img src="./img/m2.png" width="26">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+</main>
+
+<script>
+const video = document.getElementById('myVideo');
+const playBtn = document.getElementById('playBtn');
+
+playBtn.addEventListener('click', () => {
+  video.play();
+  playBtn.style.display = 'none'; // Hide play button after clicking
+});
+
+video.addEventListener('pause', () => {
+  playBtn.style.display = 'flex'; // Show again if paused
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+  
+  $('.slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    arrows: false,
+    centerMode: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 1 }
+      }
+    ]
+  });
+
+
+  $('.slider2').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    arrows: false,
+    centerMode: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 1 }
+      }
+    ]
+  });
+
+
+
+});
+</script>
+
+
+
+
+</body>
+</html>
